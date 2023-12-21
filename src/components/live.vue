@@ -1,7 +1,7 @@
 <template>
   <div class="live">
     <video controls style="width:1000px;height:500px;border:1px solid #555;" ref="video"></video>
-    <div style="padding:10px 0;">
+    <div style="padding:10px 10px;">
         <a @click="start"> 开播 </a>
     </div>
   </div>
